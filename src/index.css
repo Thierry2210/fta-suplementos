@@ -8,35 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 15% 6%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 15% 8%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 15% 8%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 261 83% 58%;
     --primary-foreground: 210 40% 98%;
+    --primary-glow: 261 83% 68%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 15% 12%;
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 15% 12%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 261 83% 58%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 15% 15%;
+    --input: 220 15% 15%;
+    --ring: 261 83% 58%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* FTA Brand Colors */
+    --brand-purple: 261 83% 58%;
+    --brand-purple-light: 261 83% 68%;
+    --brand-purple-dark: 261 83% 48%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(261 83% 58%), hsl(285 100% 65%), hsl(310 100% 70%));
+    --gradient-card: linear-gradient(145deg, hsl(220 15% 8%), hsl(220 15% 12%));
+    --gradient-button: linear-gradient(135deg, hsl(261 83% 58%), hsl(285 100% 65%));
+    
+    /* Shadows */
+    --shadow-glow: 0 0 30px hsl(261 83% 58% / 0.3);
+    --shadow-card: 0 10px 30px hsl(220 15% 3% / 0.5);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
 
